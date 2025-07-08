@@ -66,7 +66,7 @@ pip install julep
 ### Quick Start
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/julep-global-foodie-tours.git
+git clone https://github.com/fatemeshahrokhshahi/julep-global-foodie-tours.git
 cd julep-global-foodie-tours
 
 # Install dependencies
@@ -105,19 +105,16 @@ graph TD
 
 ```
 julep-global-foodie-tours/
-├── README.md                     # This file
-├── requirements.txt              # Python dependencies
-├── global_foodie_tours.py       # Main application
-├── docs/
-│   ├── WORKFLOW_DESIGN.md       # Technical implementation details
-│   ├── API_INTEGRATION.md       # Setup and configuration guide
-│   └── SAMPLE_OUTPUT.md         # Example tour outputs
-├── outputs/
-│   ├── global_foodie_tours.txt  # Complete raw output
-│   └── foodie_tours_summary.md  # Formatted tour narratives
-└── assets/
-    └── demo.gif                 # Application demo
-```
+├── README.md                           # This file
+├── working_foodie_tours.py            # Main working application
+├── individual_tours/                   # Individual city tour files
+│   ├── istanbul_foodie_tour.txt
+│   ├── new_delhi_foodie_tour.txt
+│   └── [7 more cities]
+└── outputs/
+├── working_tours_combined.txt      # Complete raw output
+├── formatted_tours_readable.md     # Curated, readable version ⭐
+└── success_summary.md              # Project summary
 
 ## 🎨 Sample Output
 
