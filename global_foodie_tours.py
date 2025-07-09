@@ -4,7 +4,7 @@ from julep import Julep
 from pathlib import Path
 
 # Set up output directory
-OUTPUT_DIR = Path(r"E:\Julep\julep-global-foodie-tours")
+OUTPUT_DIR = Path(r"YOUR_DESIRED_OUTPUT_DIRECTION") # Replace with your desired address
 
 def setup_output_directory():
     """Create output directory if it doesn't exist"""
@@ -327,8 +327,8 @@ def save_combined_results(results):
 def main():
     """Main function with working approach"""
     # Your API keys
-    JULEP_API_KEY = "eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJmN2M3NDEyZi02N2I0LTU1YzAtYWY2My05YzkxNjc4ZWU5MjIiLCJlbWFpbCI6ImZ0bS5zaGFocm9raHNoYWhpQGdtYWlsLmNvbSIsImlhdCI6MTc1MTg3MjUwMSwiZXhwIjoxNzUyNDc3MzAxfQ.ANK9va2gedgNghZUhA9F5GjojF5r5z9apJbfNeq3zeTb92iv1quA8DThWphOJdHMpZbuqP8rEE8I5xqBxifcSw"  # Replace with your actual key
-    OPENWEATHER_API_KEY = "a4c67d310283328d01679ad4a893b5a9"  # Replace with your actual key
+    JULEP_API_KEY = "YOUR_JULEP_API_KEY"  # Replace with your actual key
+    OPENWEATHER_API_KEY = "YOUR_OPENWEATHER_API_KEY"  # Replace with your actual key
     
     print("🚀 JULEP FOODIE TOURS - WORKING VERSION")
     print("=" * 70)
