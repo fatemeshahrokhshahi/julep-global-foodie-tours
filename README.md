@@ -201,7 +201,7 @@ We welcome contributions! Here are ways to get involved:
 ### Development Setup
 ```bash
 # Fork the repository
-git clone https://github.com/yourusername/julep-global-foodie-tours.git
+git clone https://github.com/fatemeshahrokhshahi/julep-global-foodie-tours.git
 
 # Create feature branch
 git checkout -b feature/new-city-berlin
